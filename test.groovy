@@ -4,7 +4,7 @@ pipelineJob('DSL_Pipeline_test') {
     	scm {
         git {
               remote {
-                  github('vidu19/dsl_demo', 'https')
+                  github('vidu19/jenkins_demo', 'https')
               }
               branch('master')
           }
